@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="./css/main.css?v=1642581850649">
+	</head>
+	<body>
+		<script>
+			window.data = {
+				home: {"title":"гид&nbsp;по <br><span class=\"for-desktop\">бережному</span><span class=\"for-devices\">общению</span>","read":"Читать"},
+			};
+		</script>
+		<div class="main-wrapper">
+			<header class="header">
+				<div class="header__left">
+					<button class="navbar-toggler"><strong><span> </span><span> </span><span> </span></strong></button><a class="logo header__logo" href="/"><img src="images/texnomart-logo.svg" alt=""></a>
+				</div>
+				<div class="header__bar">
+					<div class="header-search-wrap">
+						<form class="header-search" action="#">
+							<div class="search-close header-search__close">
+								<svg>
+									<use xlink:href="./images/sprites.svg#link-arr-2"></use>
+								</svg>
+							</div>
+							<input class="header-search__input" type="text" value="" placeholder="Поиск">
+							<input class="header-search__submit" type="submit" value="">
+						</form><a class="header-icon header-search__btn" href="#"><span></span></a>
+					</div><a class="header-icon header-notifications" href="#"><span class="header-notifications__signal pulsate"></span>
+						<svg>
+							<use xlink:href="./images/sprites.svg#notifications-icon"></use>
+						</svg></a><a class="header-account account-desc" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+						<div class="header-account__info">
+							<div class="header-account__name line-h_20">Esther Howard</div>
+							<div class="header-account__position font-size_12">HR</div>
+						</div>
+						<div class="header-account__image"><img src="images/header-profile.png" alt=""></div></a>
+					<div class="dropstar header-drop account_mob"><a class="header-account" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+							<div class="header-account__info">
+								<div class="header-account__name line-h_20">Esther Howard</div>
+								<div class="header-account__position font-size_12">HR</div>
+							</div>
+							<div class="header-account__image"><img src="images/header-profile.png" alt=""></div></a>
+						<ul class="dropdown-menu dropdown-menu-end">
+							<li><a class="dropdown-item" href="#"> 
+									<svg>
+										<use xlink:href="./images/sprites.svg#prof"></use>
+									</svg>Личный кабинет</a></li>
+							<li><a class="dropdown-item" href="#"> 
+									<svg>
+										<use xlink:href="./images/sprites.svg#bell"></use>
+									</svg>Уведомления</a></li>
+							<li><a class="dropdown-item" href="#"> 
+									<svg>
+										<use xlink:href="./images/sprites.svg#out"></use>
+									</svg>Выйти</a></li>
+						</ul>
+					</div><a class="header-icon header-logout" href="#">
+						<svg>
+							<use xlink:href="./images/sprites.svg#out"></use>
+						</svg></a>
+				</div>
+			</header>
+			<div class="content-wrapper">
+				<div class="page-wrapper inner-page">
+					<div class="profile-tabs tabs tabs_line">
+						<ul class="tabs-navi">
+							<li class="tabs-navi__li current_tab"><a class="tabs-navi__tab btn btn-sm" href="#">Профиль</a></li>
+							<li class="tabs-navi__li"><a class="tabs-navi__tab btn btn-sm" href="#">Закрепленная техника</a></li>
+							<li class="tabs-navi__li"><a class="tabs-navi__tab btn btn-sm" href="#">История поиска</a></li>
+							<li class="tabs-navi__li"><a class="tabs-navi__tab btn btn-sm" href="#">Мои уведомления</a></li>
+						</ul>
+						<div class="tabs-content-wrap">
+							<div class="tabs-content-wrap__tab active_tab">
+								<div class="profile">
+									<div class="row"> 
+										<div class="col-xxl-4 col-lg-5"> 
+											<div class="profile__left"> 
+												<div class="box-default profile__meta padding-24">
+													<div class="profile__image">
+														<input class="filepond" type="file" data-style-panel-layout="compact" data-image-preview-height="120" data-image-crop-aspect-ratio="1:3" data-image-resize-target-width="120" data-image-resize-target-height="120">
+													</div>
+													<div class="profile__position font-size-14">Front-end master</div>
+												</div>
+												<ul class="profile__buttons">
+													<li> <a class="btn btn-default-outline" href="#">
+															 Отмена</a></li>
+													<li> <a class="btn btn-default" href="#">Сохранить</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-xxl-8 col-lg-7"> 
+											<div class="box-default padding-40">
+												<div class="form-row">
+													<div class="form-input active">
+														<input class="form-control form-input__field" type="text" value="Darlene">
+														<label class="form-input__label">Имя<span>*</span></label>
+													</div>
+												</div>
+												<div class="form-row">
+													<div class="form-input active">
+														<input class="form-control form-input__field" type="text" value="Robertson">
+														<label class="form-input__label">Фамилия<span>*</span></label>
+													</div>
+												</div>
+												<div class="form-row">
+													<div class="form-input active">
+														<input class="form-control form-input__field" type="text" value="Robertson">
+														<label class="form-input__label">Отчество<span>*</span></label>
+													</div>
+												</div>
+												<div class="form-row">
+													<div class="form-input active">
+														<input class="form-control form-input__field" type="text" value="+99897 777-77-77">
+														<label class="form-input__label">Номер телефона<span>*</span></label>
+													</div>
+												</div>
+												<div class="form-row">
+													<div class="form-input active">
+														<input class="form-control form-input__field" type="text" value="example@mail.com">
+														<label class="form-input__label">Email<span>*			</span></label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-content-wrap__tab">
+								<div class="box-default profile-tech padding-24">
+									<h2 class="font-size-24 box-default__title profile-tech__title">Закрепленная техника</h2>
+									<div class="accordion accordion_type-2 accordion_tech">
+										<div class="accordion-item">
+											<div class="accordion-heading">
+												<div class="accordion-heading__left"> <span class="accordion-heading__toggle">
+														<svg>
+															<use xlink:href="./images/sprites.svg#small-arrow-down"></use>
+														</svg></span>
+													<h3 class="accordion__title">Ноутбук Lenovo E41-25 81FSS00U00</h3>
+												</div>
+												<div class="accordion-heading__right">1шт.</div>
+											</div>
+											<div class="accordion-toggle">
+												<div class="accordion-toggle__inner">
+													<ul class="options-list">
+														<li class="option options-list__item"><span class="option__param">
+																 Тип процессора</span><span class="option__znach">Intel Core i5 10400F 2.9 ГГц</span></li>
+														<li class="option options-list__item"><span class="option__param">
+																 Оперативная память (RAM)</span><span class="option__znach">8 ГБ</span></li>
+														<li class="option options-list__item"><span class="option__param">
+																 Графический контроллер</span><span class="option__znach">GeForce GTX 1650</span></li>
+														<li class="option options-list__item"><span class="option__param">
+																 Объем видеопамяти</span><span class="option__znach">4 ГБ</span></li>
+														<li class="option options-list__item"><span class="option__param">
+																 Объем SSD</span><span class="option__znach">512 ГБ</span></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<div class="accordion-heading">
+												<div class="accordion-heading__left"> <span class="accordion-heading__toggle">
+														<svg>
+															<use xlink:href="./images/sprites.svg#small-arrow-down"></use>
+														</svg></span>
+													<h3 class="accordion__title">Монитор HP X27q (2V7U5AA)</h3>
+												</div>
+												<div class="accordion-heading__right">1шт.</div>
+											</div>
+											<div class="accordion-toggle">
+												<div class="accordion-toggle__inner">
+													<ul class="options-list">
+														<li class="option options-list__item"><span class="option__param">
+																 Тип процессора</span><span class="option__znach">Intel Core i5 10400F 2.9 ГГц</span></li>
+														<li class="option options-list__item"><span class="option__param">
+																 Оперативная память (RAM)</span><span class="option__znach">8 ГБ</span></li>
+														<li class="option options-list__item"><span class="option__param">
+																 Графический контроллер</span><span class="option__znach">GeForce GTX 1650</span></li>
+														<li class="option options-list__item"><span class="option__param">
+																 Объем видеопамяти</span><span class="option__znach">4 ГБ</span></li>
+														<li class="option options-list__item"><span class="option__param">
+																 Объем SSD</span><span class="option__znach">512 ГБ</span></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-content-wrap__tab">
+								<div class="box-default profile-tech padding-24">
+									<h2 class="font-size-24 box-default__title">История поиска</h2>
+									<div class="history-links">
+										<div class="history-link">
+											<div class="history-link__date date">
+												<svg class="date__icon">
+													<use xlink:href="./images/sprites.svg#daily"></use>
+												</svg><span class="date__text">08 Августа 2021</span>
+											</div>
+											<ul class="history-link__list history-list box-default padding-20 bd-radius-8">
+												<li class="history-list__link"><a href="#">
+														 Во сколько обед</a><a class="history-list__del" href="#">
+														<svg>
+															<use xlink:href="./images/sprites.svg#close"></use>
+														</svg></a></li>
+												<li class="history-list__link"><a href="#">
+														 Как выключить компьютер</a><a class="history-list__del" href="#">
+														<svg>
+															<use xlink:href="./images/sprites.svg#close"></use>
+														</svg></a></li>
+											</ul>
+										</div>
+										<div class="history-link">
+											<div class="history-link__date date">
+												<svg class="date__icon">
+													<use xlink:href="./images/sprites.svg#daily"></use>
+												</svg><span class="date__text">08 Августа 2021</span>
+											</div>
+											<ul class="history-link__list history-list box-default padding-20 bd-radius-8">
+												<li class="history-list__link"><a href="#">
+														 Во сколько обед</a><a class="history-list__del" href="#">
+														<svg>
+															<use xlink:href="./images/sprites.svg#close"></use>
+														</svg></a></li>
+												<li class="history-list__link"><a href="#">
+														 Как выключить компьютер</a><a class="history-list__del" href="#">
+														<svg>
+															<use xlink:href="./images/sprites.svg#close"></use>
+														</svg></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-content-wrap__tab">
+								<div class="box-default profile-message-list padding-24">
+									<h2 class="font-size-24 profile-message-list__title box-default__title">Мои уведомления</h2>
+									<div class="profile-message-item">
+										<div class="profile-message">
+											<div class="profile-message__avatar"><img src="images/Frame4066.png" alt=""></div>
+											<div class="profile-message__meta">
+												<div class="profile-message__name">Служба поддержки Texnomart</div>
+												<div class="profile-message__date">20.12.2021</div>
+											</div>
+											<div class="profile-message__detail">
+												<div class="profile-message__answer"><span>Ответ:</span><strong>
+														 Как настроить компьютер?</strong></div>
+												<div class="profile-message__quest">
+													<p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
+												</div><a class="profile-message__reply" href="#" data-bs-toggle="modal" data-bs-target="#replyModal">
+													<svg>
+														<use xlink:href="./images/sprites.svg#reply"></use>
+													</svg>Ответить</a>
+											</div>
+										</div>
+										<div class="profile-message profile-message_reply">
+											<div class="profile-message__avatar"><img src="images/full-photo.jpg" alt=""></div>
+											<div class="profile-message__meta">
+												<div class="profile-message__name">Esther Howard</div>
+												<div class="profile-message__date">20.12.2021</div>
+											</div>
+											<div class="profile-message__detail">
+												<div class="profile-message__quest">
+													<p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="profile-message-item">
+										<div class="profile-message">
+											<div class="profile-message__avatar"><img src="images/Frame4066.png" alt=""></div>
+											<div class="profile-message__meta">
+												<div class="profile-message__name">Esther Howard</div>
+												<div class="profile-message__date">20.12.2021</div>
+											</div>
+											<div class="profile-message__detail">
+												<div class="profile-message__quest">
+													<p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
+												</div><a class="profile-message__reply" href="#" data-bs-toggle="modal" data-bs-target="#replyModal">
+													<svg>
+														<use xlink:href="./images/sprites.svg#reply"></use>
+													</svg>Ответить</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal modal_quest" id="replyModal" tabindex="-1" aria-labelledby="Modal" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<button class="modal-close" type="button" data-bs-dismiss="modal" aria-label="Close">
+								<svg>
+									<use xlink:href="./images/sprites.svg#close"></use>
+								</svg>
+							</button>
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalVerticallyCenteredLabel">Ваш ответ</h5>
+							</div>
+							<form action="#"> 
+								<div class="form-row">
+									<div class="form-input">
+										<textarea class="form-control form-input__field" type="text" value=""></textarea>
+										<label class="form-input__label">Ответ<span>*</span></label>
+									</div>
+								</div>
+								<div class="modal-buttons">
+									<button class="btn btn-default btn-block">
+										 Отправить </button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<nav class="nav-sidebar">
+					<ul class="nav-sidebar-list">
+						<li><a href="/home-2.html"><img src="images/home.svg" alt=""><span>Главная</span></a></li>
+						<li><a href="#"><img src="images/company.svg" alt=""><span>О компании</span></a></li>
+						<li><a href="/reglament.html"><img src="images/pravila.svg" alt=""><span>Регламент и правила</span></a></li>
+						<li><a href="/otdel.html"><img src="images/otdel.svg" alt=""><span>Отделы</span></a></li>
+						<li><a href="/vopros-otvet.html"><img src="images/quest.svg" alt=""><span>Вопрос ответ</span></a></li>
+						<li><a href="/contacts.html"><img src="images/phone.svg" alt=""><span>Контакты</span></a></li>
+					</ul>
+					<div class="question-link"><img class="question-link__icon" src="images/questions_1195.svg" alt="">
+						<div class="question-link__text"><span>Не нашли что искали?</span>	Задайте вопрос в службу поддержки</div><a class="btn btn-sm btn-default" href="#" data-bs-toggle="modal" data-bs-target="#questModal">
+							 Задать вопрос</a>
+					</div>
+				</nav>
+				<div class="modal modal_quest" id="questModal" tabindex="-1" aria-labelledby="questModal" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<button class="modal-close" type="button" data-bs-dismiss="modal" aria-label="Close">
+								<svg>
+									<use xlink:href="./images/sprites.svg#close"></use>
+								</svg>
+							</button>
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalVerticallyCenteredLabel">Задать свой вопрос</h5>
+							</div>
+							<form action="#"> 
+								<div class="form-row">
+									<div class="form-input">
+										<input class="form-control form-input__field" type="text" value="">
+										<label class="form-input__label">Введите имя и фамилию<span>*</span></label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-input">
+										<input class="form-control form-input__field" type="text" value="">
+										<label class="form-input__label">Email <span>*</span></label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-input">
+										<textarea class="form-control form-input__field" type="text" value=""></textarea>
+										<label class="form-input__label">Ваш вопрос<span>*</span></label>
+									</div>
+								</div>
+								<div class="modal-buttons">
+									<button class="btn btn-default btn-block">
+										 Отправить вопрос</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="site__layer"></div>
+		</div>
+		<script>
+			if (!('IntersectionObserver' in window)) {
+				var script = document.createElement("script");
+				script.src = "https://raw.githubusercontent.com/w3c/IntersectionObserver/master/polyfill/intersection-observer.js";
+				document.getElementsByTagName('head')[0].appendChild(script);
+			}
+		</script>
+		<script src="./js/vendor.js?v=1642581850649"></script>
+		<script src="./js/main.js?v=1642581850649"></script>
+	</body>
+</html>
